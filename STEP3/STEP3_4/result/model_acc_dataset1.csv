@@ -1,0 +1,10 @@
+,model name,TSS Value,setting,TP,FN,TN,FP
+0,サポートベクターマシン(ploy),0.9187702265372168,"{'C': 2, 'class_weight': 'balanced', 'degree': 1, 'gamma': 0.2, 'kernel': 'poly'}",70,5,609,9
+1,サポートベクターマシン(RBFカーネル),0.8937216828478964,"{'C': 15, 'class_weight': 'balanced', 'degree': 1, 'gamma': 0.01, 'kernel': 'rbf'}",68,7,610,8
+2,サポートベクターマシン(linear),0.9070550161812299,"{'C': 3, 'class_weight': 'balanced', 'degree': 1, 'gamma': 0.01, 'kernel': 'linear'}",69,6,610,8
+3,ガウシアンナイーブベイズ,0.936957928802589,no-setting,71,4,612,6
+4,ベルヌーイナイーブベイズ,0.9401941747572815,no-setting,71,4,614,4
+5,ロジスティック回帰,0.9603883495145632,no-setting,73,2,610,8
+6,k近傍法,0.8367637540453075,"{'algorithm': 'auto', 'leaf_size': 20, 'n_neighbors': 3}",63,12,616,2
+7,勾配ブースティング,0.8884789644012945,"{'max_depth': 6, 'max_features': 'sqrt', 'min_samples_leaf': 40, 'min_samples_split': 3, 'subsample': 0.8999999999999999}",67,8,615,3
+8,ランダムフォレスト,0.8517152103559871,no-setting,64,11,617,1
